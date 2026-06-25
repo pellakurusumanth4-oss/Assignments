@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "refund_agent": "./refund_agent/agent.py:graph"
+  },
+  "env": ".env"
+}

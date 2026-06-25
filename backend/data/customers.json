@@ -1,0 +1,131 @@
+[
+  {
+    "id": "cust_001",
+    "name": "Alice Nguyen",
+    "email": "alice.nguyen@example.com",
+    "tier": "gold",
+    "member_since_days_ago": 820,
+    "recent_refunds": []
+  },
+  {
+    "id": "cust_002",
+    "name": "Bob Martinez",
+    "email": "bob.martinez@example.com",
+    "tier": "standard",
+    "member_since_days_ago": 410,
+    "recent_refunds": []
+  },
+  {
+    "id": "cust_003",
+    "name": "Carol Smith",
+    "email": "carol.smith@example.com",
+    "tier": "platinum",
+    "member_since_days_ago": 1500,
+    "recent_refunds": [
+      { "days_ago": 200, "amount": 39.99, "order_id": "ord_0901" }
+    ]
+  },
+  {
+    "id": "cust_004",
+    "name": "David Lee",
+    "email": "david.lee@example.com",
+    "tier": "standard",
+    "member_since_days_ago": 240,
+    "recent_refunds": [
+      { "days_ago": 12, "amount": 45.0, "order_id": "ord_0801" },
+      { "days_ago": 33, "amount": 88.5, "order_id": "ord_0802" },
+      { "days_ago": 51, "amount": 19.99, "order_id": "ord_0803" },
+      { "days_ago": 77, "amount": 120.0, "order_id": "ord_0804" }
+    ]
+  },
+  {
+    "id": "cust_005",
+    "name": "Emma Wilson",
+    "email": "emma.wilson@example.com",
+    "tier": "gold",
+    "member_since_days_ago": 690,
+    "recent_refunds": []
+  },
+  {
+    "id": "cust_006",
+    "name": "Frank Chen",
+    "email": "frank.chen@example.com",
+    "tier": "standard",
+    "member_since_days_ago": 95,
+    "recent_refunds": []
+  },
+  {
+    "id": "cust_007",
+    "name": "Grace Kim",
+    "email": "grace.kim@example.com",
+    "tier": "standard",
+    "member_since_days_ago": 360,
+    "recent_refunds": []
+  },
+  {
+    "id": "cust_008",
+    "name": "Henry Patel",
+    "email": "henry.patel@example.com",
+    "tier": "gold",
+    "member_since_days_ago": 1100,
+    "recent_refunds": [
+      { "days_ago": 140, "amount": 22.0, "order_id": "ord_0701" }
+    ]
+  },
+  {
+    "id": "cust_009",
+    "name": "Isabel Garcia",
+    "email": "isabel.garcia@example.com",
+    "tier": "platinum",
+    "member_since_days_ago": 2010,
+    "recent_refunds": []
+  },
+  {
+    "id": "cust_010",
+    "name": "Jack Brown",
+    "email": "jack.brown@example.com",
+    "tier": "standard",
+    "member_since_days_ago": 47,
+    "recent_refunds": []
+  },
+  {
+    "id": "cust_011",
+    "name": "Karen Davis",
+    "email": "karen.davis@example.com",
+    "tier": "standard",
+    "member_since_days_ago": 520,
+    "recent_refunds": []
+  },
+  {
+    "id": "cust_012",
+    "name": "Liam Johnson",
+    "email": "liam.johnson@example.com",
+    "tier": "gold",
+    "member_since_days_ago": 780,
+    "recent_refunds": []
+  },
+  {
+    "id": "cust_013",
+    "name": "Maya Rodriguez",
+    "email": "maya.rodriguez@example.com",
+    "tier": "standard",
+    "member_since_days_ago": 130,
+    "recent_refunds": []
+  },
+  {
+    "id": "cust_014",
+    "name": "Noah Williams",
+    "email": "noah.williams@example.com",
+    "tier": "standard",
+    "member_since_days_ago": 300,
+    "recent_refunds": []
+  },
+  {
+    "id": "cust_015",
+    "name": "Olivia Taylor",
+    "email": "olivia.taylor@example.com",
+    "tier": "platinum",
+    "member_since_days_ago": 1750,
+    "recent_refunds": []
+  }
+]

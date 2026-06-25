@@ -1,0 +1,26 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/next-env.d.ts
+
+# Env / secrets
+.env
+backend/.env
+frontend/.env.local
+
+# Research scratch (raw scrapes; the digest in docs/ is kept)
+.firecrawl/
+
+# Playwright MCP artifacts / ad-hoc screenshots
+.playwright-mcp/
+.shots/
+
+# OS
+.DS_Store

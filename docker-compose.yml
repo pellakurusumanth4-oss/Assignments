@@ -1,0 +1,23 @@
+# One-command PostgreSQL for the mock CRM, matching the default DATABASE_URL in backend/.env.example.
+# Usage:  docker compose up -d
+# The app auto-creates the tables and seeds them from backend/data/*.json on first run.
+services:
+  db:
+    image: postgres:16
+    container_name: refund_agent_db
+    environment:
+      POSTGRES_USER: refund_app
+      POSTGRES_PASSWORD: refund_app
+      POSTGRES_DB: refund_agent
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U refund_app -d refund_agent"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  pgdata:
