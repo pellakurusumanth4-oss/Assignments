@@ -43,6 +43,8 @@ denies out-of-policy refunds even when asked nicely, and it stays reliable when 
 
 ## Architecture
 
+> 📐 **Diagrams:** [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) has the full set — the **agent pipeline**, the **voice pipeline**, and the **combined system** (Mermaid, renders on GitHub). The ASCII below is a quick overview.
+
 ```
   Customer (Next.js chat)                 Admin (Next.js dashboard)
           │  POST /api/chat                         ▲  GET /api/events (SSE)
